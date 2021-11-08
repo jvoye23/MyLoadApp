@@ -37,7 +37,7 @@
         android:text="@string/status_label"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteY="72dp" />
 
     <TextView
         android:id="@+id/status"
@@ -46,8 +46,8 @@
 
         android:text="@string/success"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <TextView
         android:id="@+id/file_name_text"
