@@ -52,11 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         custom_button.setOnClickListener {
             if (selectedUrl.isEmpty()) {
-                Toast.makeText(
-                    this,
-                    getString(R.string.select_file_to_download),
-                    Toast.LENGTH_SHORT
-                ).show()
+                Toast.makeText(this, getString(R.string.select_file_to_download), Toast.LENGTH_SHORT).show()
             } else {
                 download()
                 custom_button.buttonState = ButtonState.Loading
@@ -138,7 +134,7 @@ class MainActivity : AppCompatActivity() {
                 channelName,
                 NotificationManager.IMPORTANCE_DEFAULT
             )
-
+            
             notificationChannel.description = getString(R.string.download_channel_description)
 
             val notificationManager = getSystemService(
@@ -155,8 +151,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val GLIDE_URL = "https://github.com/bumptech/glide/archive/master.zip"
-        private const val LOAD_APP_URL =
-            "https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter/archive/master.zip"
+        private const val LOAD_APP_URL = "https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter/archive/master.zip"
         private const val RETROFIT_URL = "https://github.com/square/retrofit/archive/master.zip"
     }
 
