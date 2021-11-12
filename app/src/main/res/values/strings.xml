@@ -13,7 +13,7 @@
     <string name="file_name_label">File name:</string>
     <string name="file_name">URL path</string>
     <string name="status_label">Status:</string>
-    <string name="success">Download Status</string>
+    <string name="success">Success</string>
     <string name="ok_button">OK</string>
     <string name="notification_success_format">%s repository is downloaded</string>
     <string name="notification_failed_format">Download failed for %s repository</string>
@@ -28,4 +28,7 @@
     <string name="status">Status:</string>
     <string name="download_channel_description">Notifies when download is completed</string>
     <string name="failed">Failed</string>
+    <string name="glide_string">Glide -Image Loading Library by Bump Tech</string>
+    <string name="loadapp_string">LoadApp - Current repository by Udacity</string>
+    <string name="retrofit_string">Retrofit - Type-safe HTTP client for Android and Java by Square, Inc</string>
 </resources>

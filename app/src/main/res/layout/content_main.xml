@@ -36,23 +36,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Glide -Image Loading Library by Bump Tech" />
+            android:text="@string/glide_string" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="LoadApp - Current repository by Udacity" />
+            android:text="@string/loadapp_string" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Retrofit - Type-safe HTTP client for Android and Java by Square, Inc" />
-
-
+            android:text="@string/retrofit_string" />
     </RadioGroup>
 
     <com.udacity.LoadingButton
